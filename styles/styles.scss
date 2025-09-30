@@ -105,7 +105,7 @@ main {
             background-color: #6B8E23;
             color: $color;
             font-family: "Fascinate", system-ui;
-            padding: 10px;
+            padding: 15px;
             text-align: center;
             font-size: 1.563rem;
             margin-top: 0;
@@ -114,6 +114,10 @@ main {
 
         .products__content {
             @extend %productsTable;
+
+            h3 {
+                color: #8ab91b;
+            }
 
             .products__item {
                 text-align: center;
@@ -136,8 +140,8 @@ main {
 
                 .products__p {
                     color: $price;
-                    font-weight: 400;
-                    font-size: 15px;
+                    font-weight: 600;
+                    font-size: 20px;
                 }
             }
         }
@@ -150,7 +154,7 @@ main {
         box-sizing: border-box;
         height: 100%;
         position: fixed;
-        right: 2%;
+        right: -1%;
         top: 100px;
         box-shadow: -19px -1px 22px -15px rgba(85, 107, 47);
 

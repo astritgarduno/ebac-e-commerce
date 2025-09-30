@@ -93,19 +93,22 @@ main .products .products__h {
   background-color: #6B8E23;
   color: #fff;
   font-family: "Fascinate", system-ui;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   font-size: 1.563rem;
   margin-top: 0;
   margin-bottom: 5px;
+}
+main .products .products__content h3 {
+  color: #8ab91b;
 }
 main .products .products__content .products__item {
   text-align: center;
 }
 main .products .products__content .products__item .products__p {
   color: #006400;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 600;
+  font-size: 20px;
 }
 main .cart {
   width: 500px;
@@ -114,7 +117,7 @@ main .cart {
   box-sizing: border-box;
   height: 100%;
   position: fixed;
-  right: 2%;
+  right: -1%;
   top: 100px;
   box-shadow: -19px -1px 22px -15px rgb(85, 107, 47);
 }
